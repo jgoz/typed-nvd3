@@ -31,7 +31,7 @@ namespace nvd3_test_scatterPlusLineChart {
             shapes = ['circle'],
             random = d3.random.normal();
 
-        for (i = 0; i < groups; i++) {
+        for (let i = 0; i < groups; i++) {
             data.push({
                 key: 'Group ' + i,
                 values: [],

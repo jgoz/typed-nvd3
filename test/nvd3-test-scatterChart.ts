@@ -45,7 +45,7 @@ namespace nvd3_test_scatterChart {
             shapes = ['thin-x', 'circle', 'cross', 'triangle-up', 'triangle-down', 'diamond', 'square'],
             random = d3.random.normal();
 
-        for (i = 0; i < groups; i++) {
+        for (let i = 0; i < groups; i++) {
             data.push({
                 key: 'Group ' + i,
                 values: []
