@@ -3241,6 +3241,10 @@ interface StackedAreaChart extends StackedArea, Chart {
     rightAlignYAxis(): boolean;
     /*When only one Y axis is used, this puts the Y axis on the right side instead of the left.*/
     rightAlignYAxis(value: boolean): this;
+    /*Whether to show extra controls or not. Extra controls include things like making mulitBar charts stacked or side by side.*/
+    showControls(): boolean;
+    /*Whether to show extra controls or not. Extra controls include things like making mulitBar charts stacked or side by side.*/
+    showControls(value: boolean): this;
     showLegend(): boolean;
     /*Whether to display the legend or not*/
     showLegend(value: boolean): this;
